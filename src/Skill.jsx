@@ -1,0 +1,43 @@
+import React from 'react';
+import web1 from '../src/images/front.jpg';
+import web2 from '../src/images/back.jpg';
+import web3 from '../src/images/and.png';
+import Aos from 'aos';
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
+
+
+const Skill = () => {
+
+    useEffect(() => {
+        Aos.init({
+            duration: 5000,
+            offset: 100,
+            easing: 'ease-in-sine',
+        });
+    }, []);
+
+    return (
+        <>
+            <section className="skill_section">
+                <h1 data-aos='zoom-in' className="skill_title">Skills</h1>
+                <div className="center_section">
+                    <div data-aos='flip-left' className="card">
+                        <h2>Front-End Development</h2>
+                        <img src={web1} alt="img1" />
+                    </div>
+                    <div data-aos='flip-left' className="card">
+                        <h2>Back-End Development</h2>
+                        <img src={web2} alt="img2" />
+                    </div>
+                    <div data-aos='flip-left' className="card">
+                        <h2>Android Development</h2>
+                        <img src={web3} alt="img3" />
+                    </div>
+                </div>
+            </section>
+        </>
+    );
+};
+
+export default Skill;
