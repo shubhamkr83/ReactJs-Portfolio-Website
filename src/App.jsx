@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import Navbar from "./Navbar";
-import Home from './Home';
-import About from './About';
-import Portfolio from './Portfolio';
-import Contact from './Contact';
-import Footer from './Footer';
+import Navbar from "./Components/Navbar";
+import Home from './Components/Home';
+import About from './Components/About';
+import Portfolio from './Components/Portfolio';
+import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 import { Redirect, Route, Switch } from 'react-router-dom';
 import styled, { ThemeProvider } from 'styled-components';
-import { lightTheme, darkTheme, GlobalStyle } from './theme';
+import { lightTheme, darkTheme, GlobalStyle } from './Components/theme';
 
 
 const styledApp = styled.div``;

@@ -1,5 +1,5 @@
 import React from 'react';
-import web1 from '../src/images/img32.png';
+import web1 from '../images/img32.png';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';

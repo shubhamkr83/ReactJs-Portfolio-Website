@@ -1,7 +1,7 @@
 import React from 'react';
-import web1 from '../src/images/front.jpg';
-import web2 from '../src/images/back.jpg';
-import web3 from '../src/images/and.png';
+import web1 from '../images/front.jpg';
+import web2 from '../images/back.jpg';
+import web3 from '../images/and.png';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import { useEffect } from 'react';

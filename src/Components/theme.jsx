@@ -9,6 +9,7 @@ export const darkTheme = {
     fontColor: "#fff",
     homeFontColor: "#cfcfcf",
     boxShadow: "none",
+    secondary_color: "#0084F1",
     boxShadow2: "-7px 6px 18px 2px #0084F1",
     filter: "drop-shadow(0 0 0 rgb(0, 0, 0))",
     projectBg: "#333333",
@@ -24,6 +25,12 @@ body {
 ${'' /* ------- home section ------------ */}
 .home_section .left_sec h3{
     color: ${props => props.theme.homeFontColor};
+}
+.left_sec .icons .MuiSvgIcon-root{
+    color: ${props => props.theme.fontColor}
+}
+.left_sec .icons .MuiSvgIcon-root:hover{
+    color: ${props => props.theme.secondary_color}
 }
 .home_section .center_home .right_sec {
     filter: ${props => props.theme.filter};
@@ -48,6 +55,9 @@ ${'' /* -------- Project Section ---------------- */}
 
 .project_section{
     background-color: ${props => props.theme.projectBg};
+}
+.project_nav button{
+    color: ${props => props.theme.fontColor};
 }
 
 ${'' /* -------- Contact Section ---------------- */}

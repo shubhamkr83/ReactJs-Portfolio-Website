@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { HashLink as NavLink } from 'react-router-hash-link';
 import MenuIcon from '@material-ui/icons/Menu';
-import moon from '../src/images/moon.png';
+import moon from '../images/moon.png';
 
 
 const Navbar = (props) => {
