@@ -29,7 +29,7 @@ const Home = () => {
                         <h3>Web & Android Developer</h3>
                         <div className="icons">
                             <a href="#" target="_blank" ><FacebookIcon /></a>
-                            <a href="#" target="_blank" ><TwitterIcon /></a>
+                            <a href="https://twitter.com/KrShubhamDev" target="_blank" ><TwitterIcon /></a>
                             <a href="https://www.instagram.com/shubhamkrdev/" target="_blank" ><InstagramIcon /></a>
                             <a href="https://www.linkedin.com/in/shubham-kumar836" target="_blank" ><LinkedInIcon /></a>
                             <a href="https://github.com/shubhamkr83" target="_blank"><GitHubIcon /></a>

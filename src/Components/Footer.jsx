@@ -41,7 +41,7 @@ const Footer = () => {
                             <h2>Follow</h2>
                             <div className="social_icons">
                                 <a href="#" className="face"><FacebookIcon /></a>
-                                <a href="#" className="twit"><TwitterIcon /></a>
+                                <a href="https://twitter.com/KrShubhamDev" className="twit"><TwitterIcon /></a>
                                 <a href="https://www.instagram.com/shubhamkrdev/" target="_blank" className="inst"><InstagramIcon /></a>
                                 <a href="https://www.linkedin.com/in/shubham-kumar836" target="_blank" className="link"><LinkedInIcon /></a>
                                 <a href="https://github.com/shubhamkr83" target="_blank" className="link"><GitHubIcon /></a>
