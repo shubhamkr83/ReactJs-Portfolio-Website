@@ -30,10 +30,10 @@ const Footer = () => {
                     <div className="footer_middle">
                         <div data-aos='fade-right' className="left_section">
                             <h2>Explore</h2>
-                            <h3>Home</h3>
-                            <h3>About</h3>
-                            <h3>Portfolio</h3>
-                            <h3>Contact</h3>
+                            <a href="#">Home</a>
+                            <a href="#">About</a>
+                            <a href="#">Portfolio</a>
+                            <a href="#">Contact</a>
                         </div>
                         <div data-aos='fade-left' className="right_section">
                             <h2>Contact</h2>

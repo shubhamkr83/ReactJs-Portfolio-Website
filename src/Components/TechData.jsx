@@ -1,4 +1,4 @@
-const TechData = [
+const FrontEnd = [
     {
         id: 1,
         image: "../image/html.png",
@@ -21,59 +21,63 @@ const TechData = [
     },
     {
         id: 5,
-        image: "../image/boot5.png",
-        name: "Bootstrap 5",
-    },
-    {
-        id: 6,
-        image: "../image/tailwind.svg",
-        name: "Tailwind CSS",
-    },
-    {
-        id: 7,
         image: "../image/react.png",
         name: "ReactJs",
     },
     {
-        id: 8,
-        image: "../image/git.png",
-        name: "Git & GitHub",
+        id: 6,
+        image: "../image/boot5.png",
+        name: "Bootstrap 5",
     },
+    // {
+    //     id: 7,
+    //     image: "../image/tailwind.svg",
+    //     name: "Tailwind CSS",
+    // },
+
     {
-        id: 9,
+        id: 8,
         image: "../image/java.png",
         name: "JAVA",
+    },
+
+];
+
+const BackEnd = [
+    {
+        id: 9,
+        image: "../image/Nodejs.svg",
+        name: "Node & Express JS",
     },
     {
         id: 10,
         image: "../image/mongodb.svg",
         name: "MongoDB",
-
     },
     {
         id: 11,
         image: "../image/firebase.svg",
         name: "Firebase",
+    }
 
+];
+const Others = [
+    {
+        id: 12,
+        image: "../image/git.png",
+        name: "Git & GitHub",
     },
-    // {
-    //     id: 12,
-    //     image: "../image//php.svg",
-    //     name: "PHP",
-
-    // },
-    // {
-    //     id: 13,
-    //     image: "../image/mysql.svg",
-    //     name: "MySQL",
-
-    // },
+    {
+        id: 13,
+        image: "../image/firebase.svg",
+        name: "Firebase",
+    },
     {
         id: 14,
         image: "../image/vscode.svg",
         name: "VS Code",
-
     },
-];
 
-export default TechData;
+];
+export default FrontEnd;
+export { BackEnd, Others };

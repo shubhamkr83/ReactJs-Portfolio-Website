@@ -37,6 +37,7 @@ const App = () => {
                     <Portfolio />
                     <Contact />
                     <Footer />
+
                 </>
             </styledApp>
         </ThemeProvider>
